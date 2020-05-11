@@ -1,0 +1,22 @@
+.container-fluid.violet{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blueviolet;
+    height: auto;
+}
+
+.container-fluid.red{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: red;
+    height: auto;
+}
+.container-fluid.green{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: green;
+    height: auto;
+    
+}
+
+
