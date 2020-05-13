@@ -2,7 +2,7 @@
 /* #NAVBAR */
 
 .navbar.navbar-expand-lg.navbar-light.bg-light{
-      position: relative;
+      
       background:#f0f0f0 ;
       width: 100%;
       border-bottom-left-radius:0.5cm ;
@@ -12,9 +12,11 @@
 
       
 }
-.sticky-top{
-    position: sticky;
-}
+/* .sticky{
+    position: fixed;
+    top:0;
+    width:100%;
+} */
 
 .profileimg{
     border-radius: 0.5cm;
@@ -57,9 +59,10 @@ br{
 
     height:700px;
     width : 100%;
-    border-radius: 0.2cm;
-    filter: blur(3px);
-    background-color: transparent;
+    border-radius: 0.5cm;
+    filter: blur(5px);
+    
+    
     
     
 }
@@ -125,3 +128,35 @@ h1{
     height:580px;
 
 }
+
+.container-fluid.slider{
+
+    padding: 10px;
+    background-color: #eee7e7;
+   
+    
+}
+.carousel-inner{
+
+    border-radius: 0.5cm;
+}
+
+
+/* 3rd landing page */
+
+body {
+    background: #fff;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+  }
+  .swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .swiper-slide {
+    
+  }
