@@ -1,5 +1,5 @@
 
-    // slider
+    slider 3d
     
     var swiper = new Swiper('.swiper-container', {
         effect: 'coverflow',
@@ -7,7 +7,7 @@
         centeredSlides: true,
         slidesPerView: 'auto',
         coverflowEffect: {
-          rotate: 180,
+          rotate: 50,
           stretch: 0,
           depth: 100,
           modifier: 1,
@@ -21,3 +21,4 @@
             prevEl: '.swiper-button-prev',
           },
       });
+
